@@ -1,5 +1,7 @@
+//#include "connectsock.h"
+
 int
 connect_udp(const char* host, const char* service)
 {
-	return connect_sock(host, service, "udp");
+	return connectsock(host, service, "udp");
 }

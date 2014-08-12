@@ -1,3 +1,5 @@
+//#include "connectsock.h"
+
 int
 connectTCP(const char* host,
 		   const char* service
