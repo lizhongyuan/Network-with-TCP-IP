@@ -36,5 +36,7 @@ connect_sock(const char* host, const char* service, const char* transport)
 	{
 	}
 	else if ((sin.sin_addr.s_addr = inet_addr(host)) == INADDR_NONE)
+	{
 		errexit("can't get \"%s\" host entry\n", service);
+	}
 }

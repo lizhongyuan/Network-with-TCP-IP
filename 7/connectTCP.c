@@ -1,5 +1,7 @@
 int
-connectTCP(const char* host, const char* service, const char* transport)
+connectTCP(const char* host,
+		   const char* service
+		  )
 {
 	return connectsock(host, service, "tcp");
 }
